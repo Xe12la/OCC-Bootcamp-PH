@@ -1,0 +1,47 @@
+/** Comment in CSS **/
+/* Universal Selector */
+* {
+    color:brown;
+    background-color: rgb(88, 57, 9);
+}
+
+/* Element selector*/
+p{
+    color: blue;
+}
+
+/* Class selector*/
+.class-example {
+    color: green;
+}
+
+/* ID selector*/
+#id-example{
+    color: yellow   ;
+}
+
+/* Attribute Selector */
+/* targetting an <a> with a href attribute */
+a[href] {
+    color: rgb(238, 238, 250);
+}
+
+/* target any elements thats has a href attribute */
+[href] {
+    color: purple;
+}
+
+/* target <a> with a href that is exactly "www.example2.com" */
+a[href="http://www.example2.com"] {
+    color: orange;
+}
+
+/* Grouping Selector */
+h1, h2, h3 {
+    font-size: 25px;
+    background-color: beige;
+}
+
+#heading1 , .heading2 , h3 {
+    background-color: rgb(196, 176, 147);
+}
