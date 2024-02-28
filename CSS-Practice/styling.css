@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+.bg{
+    background-color: aqua;
+    background-image: url("https://img.freepik.com/free-photo/abstract-pool-water-surface-background-with-sun-light-reflection_74190-8510.jpg?size=626&ext=jpg&ga=GA1.1.1269040533.1709078400&semt=ais") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.font-example{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color: cyan;
+    font-size: 30px;
+  }
+
+  .text-example{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 20px;
+  }
+
+  #spacing-example{
+    line-height: 1.5;
+    letter-spacing: 5px;
+    background-color: peachpuff;
+  }
+
+/* text-shadow: 
+    x-coordinate ||
+    y-coordinate ||
+    blur radius ||
+    color of the shadow
+ */
+ #shadow-example { 
+    font-size: 20px;
+    text-indent: 10px;
+    text-shadow: 2px 4px 8px red;
+}
+
+.box-model{
+    background-color: coral;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border: 10px dashed red;
+    text-align: center;
+
+    height: 150px;
+    width: 50px;
+}
+
+/* 
+ == MARGIN and PADDING ==
+    1 value = applied to all 4 sides
+    2 value = top and bottom side || right and left side
+    3 value = top || right and left side || bottom 
+    4 values = top || right || bottom || left
+*/

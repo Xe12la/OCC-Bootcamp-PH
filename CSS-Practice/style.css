@@ -45,3 +45,20 @@ h1, h2, h3 {
 #heading1 , .heading2 , h3 {
     background-color: rgb(196, 176, 147);
 }
+
+#heading1:hover{
+    background-color: lightsalmon;
+    color: darkgreen;
+}
+
+.heading2::first-letter{
+    color: blue;
+}
+
+h3::after{
+    content: "Place After h3 ";
+}
+
+h3::before{
+    content: "Place Before h3 ";
+}
